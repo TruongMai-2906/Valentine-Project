@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/Valentine-Project/static/css/main.57ef1f54.css",
+    "main.js": "/Valentine-Project/static/js/main.e87d6329.js",
+    "static/js/787.62a9da70.chunk.js": "/Valentine-Project/static/js/787.62a9da70.chunk.js",
+    "static/media/image3.jpg": "/Valentine-Project/static/media/image3.45dcfb518d376972a20f.jpg",
+    "static/media/image1.jpg": "/Valentine-Project/static/media/image1.fa8be056bd71a9d34adf.jpg",
+    "static/media/love.jfif": "/Valentine-Project/static/media/love.9e6a0581dc8ab0a386e2.jfif",
+    "static/media/image2.jpg": "/Valentine-Project/static/media/image2.308481c441dcd945cce9.jpg",
+    "index.html": "/Valentine-Project/index.html",
+    "main.57ef1f54.css.map": "/Valentine-Project/static/css/main.57ef1f54.css.map",
+    "main.e87d6329.js.map": "/Valentine-Project/static/js/main.e87d6329.js.map",
+    "787.62a9da70.chunk.js.map": "/Valentine-Project/static/js/787.62a9da70.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.57ef1f54.css",
+    "static/js/main.e87d6329.js"
+  ]
+}
