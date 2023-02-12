@@ -11,7 +11,7 @@ import Image3 from "./image3.jpg";
 import { motion } from "framer-motion";
 
 function App() {
-  const [line, setLine] = useState(0);
+  const [line, setLine] = useState(-1);
   const [isVisible, setIsVisible] = useState(false);
 
   const container = {
@@ -37,9 +37,16 @@ function App() {
     }
   }, [isVisible]);
 
+  useEffect(() => {
+    setTimeout(() => {
+      setLine(line + 1);
+    }, 3000);
+  }, []);
+
   return (
     <div className="root">
-      <TypeAnimation
+      {
+        line > -1 && <TypeAnimation
         sequence={[
           "Kính gửi bé Châu yêu dấu của anh 💖",
           1000, // Waits 1s
@@ -54,6 +61,7 @@ function App() {
         repeat={0}
         className="text first-line"
       />
+      }
       {line > 0 && (
         <TypeAnimation
           sequence={[
