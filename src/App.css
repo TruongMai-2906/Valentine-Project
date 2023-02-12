@@ -1,0 +1,68 @@
+.root {
+  font-family: 'Dancing Script', cursive;
+  font-size: 16px;
+  position: relative;
+  z-index: 1;
+  min-height: 2015px;
+  padding: 2rem 1rem;
+}
+
+.text {
+  font-size: 1.8rem;
+  color: #fff;
+  padding-top: 1rem;
+}
+
+.first-line {
+  padding-top: 2rem;
+}
+
+.last-line {
+  text-align: right;
+  padding-top: 4rem;
+}
+
+.background {
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  width: 100%;
+  object-fit: cover;
+  filter: blur(4px);
+}
+
+.image-container {
+  width: 100%;
+  height: 200px;
+  position: relative;
+  margin-top: 3rem;
+}
+
+.image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: inherit;
+  width: auto;
+}
+
+.image1 {
+  transform: rotate(3deg);
+}
+
+.image2 {
+  left: 25%;
+  transform: rotate(-15deg);
+}
+
+.image3 {
+  left: 50%;
+  transform: rotate(10deg);
+}
+
+.signature {
+  display: flex;
+  margin-left: auto;
+}
