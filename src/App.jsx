@@ -1,4 +1,4 @@
-import Background from "./love.jfif";
+import Background from "./love.jpg";
 import Signature from "./signature.png";
 import "./App.css";
 import { TypeAnimation } from "react-type-animation";
